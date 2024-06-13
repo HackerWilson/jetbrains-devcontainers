@@ -1,0 +1,10 @@
+{
+  "name": "GoProject",
+  "dockerFile": "Dockerfile",
+  "postCreateCommand": "go mod download",
+  "containerEnv": {},
+  "runArgs": ["--network=host"],
+  "shutdownAction": "none",
+  "privileged": true,
+  "capAdd": []
+}
