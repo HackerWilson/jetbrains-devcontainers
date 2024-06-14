@@ -1,17 +1,17 @@
 {
-  "name": "GoProject",
-  "dockerFile": "Dockerfile",
-  "postCreateCommand": "go mod download",
-  "containerEnv": {},
-  "containerLabels": {},
-  "appPort": [
-    "8000:8000"
-  ],
-  "runArgs": [
-    "-p", "32376:12345",
-    "--network=host"
-  ],
-  "shutdownAction": "none",
-  "privileged": true,
-  "capAdd": []
+    "name": "GoProject",
+    "dockerFile": "Dockerfile",
+    "postCreateCommand": "go mod download",
+    "containerEnv": {},
+    "containerLabels": {},
+    "appPort": [
+        "8000:8000"
+    ],
+    "runArgs": [
+        "-p",
+        "32376:12345"
+    ],
+    "shutdownAction": "none",
+    "privileged": true,
+    "capAdd": []
 }
