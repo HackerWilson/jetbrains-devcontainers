@@ -8,7 +8,7 @@
     "8000:8000"
   ],
   "runArgs": [
-    "-p", "32376:32376",
+    "-p", "32376:12345",
   ],
   "shutdownAction": "none",
   "privileged": true,
