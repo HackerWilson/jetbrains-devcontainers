@@ -5,8 +5,10 @@
     "containerEnv": {},
     "containerLabels": {},
     "forwardPorts": [
-        "8000",
-        "12345"
+        "0.0.0.0:8000",
+        ":::8000",
+        "0.0.0.0:12345",
+        ":::12345"
     ],
     "runArgs": [],
     "shutdownAction": "none",
