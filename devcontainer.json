@@ -3,6 +3,9 @@
   "dockerFile": "Dockerfile",
   "postCreateCommand": "go mod download",
   "containerEnv": {},
+  "containerLabels": {
+    "com.intellij.devcontainer.backend.port": "12345"
+  },
   "appPort": [
     "32376:12345", // goland
     "8000:8000"
