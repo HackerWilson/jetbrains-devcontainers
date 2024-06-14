@@ -4,14 +4,11 @@
     "postCreateCommand": "go mod download",
     "containerEnv": {},
     "containerLabels": {},
-    "appPort": [
-        "8000:8000"
+    "forwardPorts": [
+        "8000",
+        "12345"
     ],
-    "runArgs": [
-        "-p",
-        "32376:12345",
-        "--network=host"
-    ],
+    "runArgs": [],
     "shutdownAction": "none",
     "privileged": true,
     "capAdd": []
