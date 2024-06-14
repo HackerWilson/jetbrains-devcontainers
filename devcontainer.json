@@ -9,7 +9,8 @@
     ],
     "runArgs": [
         "-p",
-        "32376:12345"
+        "32376:12345",
+        "--network=host"
     ],
     "shutdownAction": "none",
     "privileged": true,
