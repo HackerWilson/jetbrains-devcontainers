@@ -6,7 +6,7 @@
   "appPort": [
     "8000:8000"
   ],
-  "runArgs": ["--network=host"],
+  "runArgs": [],
   "shutdownAction": "none",
   "privileged": true,
   "capAdd": []
