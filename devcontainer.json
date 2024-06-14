@@ -3,6 +3,9 @@
   "dockerFile": "Dockerfile",
   "postCreateCommand": "go mod download",
   "containerEnv": {},
+  "appPort": [
+    "8000:8000"
+  ],
   "runArgs": ["--network=host"],
   "shutdownAction": "none",
   "privileged": true,
