@@ -3,14 +3,13 @@
   "dockerFile": "Dockerfile",
   "postCreateCommand": "go mod download",
   "containerEnv": {},
-  "containerLabels": {
-    "com.intellij.devcontainer.backend.port": "12345"
-  },
+  "containerLabels": {},
   "appPort": [
-    "32376:12345", // goland
     "8000:8000"
   ],
-  "runArgs": [],
+  "runArgs": [
+    "-p", "32376:32376",
+  ],
   "shutdownAction": "none",
   "privileged": true,
   "capAdd": []
