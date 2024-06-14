@@ -4,6 +4,7 @@
   "postCreateCommand": "go mod download",
   "containerEnv": {},
   "appPort": [
+    "32376:12345", // goland
     "8000:8000"
   ],
   "runArgs": [],
