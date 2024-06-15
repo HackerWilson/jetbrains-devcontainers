@@ -5,12 +5,10 @@
     "containerEnv": {},
     "containerLabels": {},
     "forwardPorts": [
-        "0.0.0.0:8000",
-        ":::8000",
-        "0.0.0.0:12345",
-        ":::12345"
+        "8000",
+        "12345"
     ],
-    "runArgs": [],
+    "runArgs": ["--network=host"],
     "shutdownAction": "none",
     "privileged": true,
     "capAdd": []
