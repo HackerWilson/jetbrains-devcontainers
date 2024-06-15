@@ -11,7 +11,5 @@
         ":::12345"
     ],
     "runArgs": [],
-    "shutdownAction": "none",
-    "privileged": true,
-    "capAdd": []
+    "shutdownAction": "none"
 }
