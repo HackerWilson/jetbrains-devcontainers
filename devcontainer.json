@@ -8,7 +8,7 @@
         "8000",
         "12345"
     ],
-    "runArgs": ["--network=host"],
+    "runArgs": ["--network=macvlan"],
     "shutdownAction": "none",
     "privileged": true,
     "capAdd": []
