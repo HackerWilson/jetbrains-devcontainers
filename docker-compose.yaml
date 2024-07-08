@@ -1,10 +1,10 @@
 services:
-  go-work:
+  dev:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: go-work
-    hostname: go-work
+    container_name: dev
+    hostname: dev
     ports:
       - "12345:12345"
     network_mode: bridge
