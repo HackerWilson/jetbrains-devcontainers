@@ -1,1 +1,1 @@
-FROM golang:1.22
+ghcr.io/hackerwilson/asdf-alpine:master
