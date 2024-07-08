@@ -1,6 +1,5 @@
 {
     "name": "GoProject",
-    "dockerComposeFile": ["./docker-compose.yaml"],
     "postCreateCommand": "go mod download",
     "containerEnv": {},
     "containerLabels": {},
