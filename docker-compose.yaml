@@ -1,0 +1,10 @@
+version: '3'
+services:
+  go-workspace:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: go-workspace
+    ports:
+      - "12345:12345"
+    network_mode: bridge
