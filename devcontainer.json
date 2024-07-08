@@ -8,7 +8,7 @@
         "8000",
         "12345"
     ],
-    "runArgs": ["--network=macvlan"],
+    "runArgs": ["--network=bridge"],
     "shutdownAction": "none",
     "privileged": true,
     "capAdd": []
