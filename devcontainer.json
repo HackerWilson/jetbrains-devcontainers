@@ -15,7 +15,7 @@
         }
     },
     "runArgs": [
-        "--network=bridge"
+        "--network bridge -p 12345:12345"
     ],
     "shutdownAction": "none",
     "privileged": true,
