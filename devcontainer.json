@@ -1,8 +1,7 @@
 {
-    "name": "GoWork",
+    "name": "DevWork",
     "dockerComposeFile": ["docker-compose.yaml"],
-    "service": "go-work",
-    "postCreateCommand": "go mod download",
+    "service": "dev",
     "containerEnv": {},
     "containerLabels": {},
     "forwardPorts": [
