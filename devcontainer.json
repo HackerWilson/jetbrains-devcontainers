@@ -8,13 +8,12 @@
         "8000",
         "12345"
     ],
-    "portsAttributes": 
-        {
-            "12345": {
-                "requireLocalPort": true
-            }
-        },
-    
+    "portsAttributes": {
+        "12345": {
+            "requireLocalPort": true,
+            "elevateIfNeeded": true
+        }
+    },
     "runArgs": [
         "--network=bridge"
     ],
