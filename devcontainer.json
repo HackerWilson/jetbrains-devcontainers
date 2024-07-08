@@ -1,22 +1,12 @@
 {
     "name": "GoProject",
-    "dockerFile": "Dockerfile",
+    "dockerComposeFile": ["docker-compose.yml"],
     "postCreateCommand": "go mod download",
     "containerEnv": {},
     "containerLabels": {},
     "forwardPorts": [
         "8000",
         "12345"
-    ],
-    "portsAttributes": {
-        "12345": {
-            "requireLocalPort": true,
-            "elevateIfNeeded": true
-        }
-    },
-    "runArgs": [
-        "--network=bridge",
-        "-p 12345:12345"
     ],
     "shutdownAction": "none",
     "privileged": true,
