@@ -8,6 +8,9 @@
         "8000",
         "12345"
     ],
+    "portsAttributes": {
+        {"12345": {"requireLocalPort": true}}
+    }
     "runArgs": ["--network=bridge"],
     "shutdownAction": "none",
     "privileged": true,
