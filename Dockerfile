@@ -1,1 +1,1 @@
-FROM ghcr.io/hackerwilson/asdf-alpine:master
+FROM ghcr.io/hackerwilson/asdf-ubuntu:master
