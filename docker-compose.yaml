@@ -6,10 +6,9 @@ services:
     container_name: dev
     hostname: dev
     environment:
-      - TZ=Your/Timezone
+      - TZ=Asia/Shanghai
     ports:
       - "12345:12345"
     volumes:
-      - /etc/localtime:/etc/localtime:ro
       - /volume2/homes/wilson/Work:/root/Work
     network_mode: bridge
