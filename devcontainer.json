@@ -2,11 +2,16 @@
     "name": "DevWork",
     "dockerComposeFile": ["docker-compose.yaml"],
     "service": "dev",
+    "image": "alpine:latest",
     "containerEnv": {},
     "containerLabels": {},
     "forwardPorts": [
         "12345"
     ],
+    "onCreateCommand": {
+        "update": "apk update",
+        "installDependencies": "apk add unzip curl libxext libxrender libxtst libxi freetype procps gcompat"
+    },
     "shutdownAction": "none",
     "privileged": true,
     "capAdd": []
