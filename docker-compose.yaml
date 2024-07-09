@@ -7,4 +7,6 @@ services:
     hostname: dev
     ports:
       - "12345:12345"
+    volumes:
+      - /volume2/homes/wilson/Work:/Work
     network_mode: bridge
