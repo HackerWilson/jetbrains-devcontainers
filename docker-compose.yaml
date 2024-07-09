@@ -5,8 +5,12 @@ services:
       dockerfile: Dockerfile
     container_name: dev
     hostname: dev
+    environment:
+      - TZ=Your/Timezone
     ports:
       - "12345:12345"
     volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
       - /volume2/homes/wilson/Work:/root/Work
     network_mode: bridge
